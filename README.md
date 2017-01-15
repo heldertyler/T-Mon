@@ -6,7 +6,7 @@ A PowerShell Based Monitoring System with Microsoft SQL Backend
 T-Mon is agentless monitoring system utilizing a Series of PowerShell scripts to collect data on devices or services and stores the collected data in Microsoft SQL database (Express (for small instances), Standard (for mid instances), and Enterprise (for Mass Deployments).
 
 #Requirements
-T-Mon requires a Microsoft SQL server with capacity for another database and at least one applicaiton server that will execute the scripts.
+T-Mon requires a server with Microsoft SQL installed with capacity for another database and at least one applicaiton server that will execute the scripts. For smaller instances, the scripts and database could run on the same server.
 
 #Scope
 The scope of this project is the following:
