@@ -11,7 +11,7 @@
     .PARAMETER Website
         This parameter is set within the configuration file and contains data pulled of sql of monitored websites that should be checked
 
-	.PARAMETER SQLInstance
+    .PARAMETER SQLInstance
         Parameter that allows the user to specify what sql instance to use for connection.
 
     .PARAMETER SQLDatabase
