@@ -5,7 +5,7 @@
     .DESCRIPTION
         T-Mon Web Certificate monitor performs the following checks:
             - Performs a get response request on the website to pull the certificate inforamtion
-            - Verified if certificate is valid by ensuring that current date is past begin date but before expire date
+            - Verifies if the certificate is valid by ensuring that current date is past the begin date but before the expire date
               (I will add alert logic of 30 days, later on, this is just basic functionality at this time)
 
     .PARAMETER Website
